@@ -28,6 +28,7 @@ echo 'src-git helloworld https://github.com/fw876/helloworld;master' >>feeds.con
 
 git clone --depth=1 https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git package/net/smartdns
 #git clone https://github.com/1wrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 #git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
